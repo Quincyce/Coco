@@ -1,0 +1,19 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.5.0;
+
+// create a function that has the following
+// Add 5 and 2 to the state variable
+// substract 2 from the state variable
+
+contract microsoft{
+    uint public university =300;
+    function Add() public{
+        university +=5;
+        university +=2;
+    }
+
+    function Decrease() public{
+        university -=2;
+
+    }
+}
